@@ -26,9 +26,17 @@ namespace s10818140.Controllers
 
             return View();
         }
+        
         public ActionResult Week()
         {
             
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Week(int a)
+        {
+
             return View();
         }
     }
